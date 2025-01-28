@@ -125,7 +125,7 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     /* Adjust the font size as needed */
     font-weight: bold;
     text-align: left;
@@ -793,12 +793,21 @@ body {
     margin: 0 60px 30px 60px;
 }
 
+/* .section-header h2 {
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59.2px;
+    text-align: left;
+    color: #070B0F;
+} */
 .section-header h2 {
     margin-bottom: 10px;
     font-size: 48px;
     font-weight: 600;
     line-height: 59.2px;
     text-align: left;
+    width: 60%;
     color: #070B0F;
 }
 
@@ -1158,6 +1167,9 @@ body {
         color: white;
     }
 
+    .card-footer {
+        padding: 0rem 1rem;
+    }
     .arrow {
         margin-top: 10px;
     }
@@ -1166,7 +1178,7 @@ body {
         position: relative;
         z-index: 2;
         max-width: 550px;
-        margin-left: 25px;
+        margin-left: 0;
     }
 
     .about-us-content h2 {
@@ -1260,7 +1272,7 @@ body {
         color: #000;
         line-height: 40px;
         text-align: center;
-        margin: 0px 38px;
+        margin: 0px 10px;
     }
 
     .testimonial-card div {
@@ -1277,6 +1289,7 @@ body {
         text-align: center;
         color: #070B0F;
         margin-bottom: 30px;
+        width: 100%;
     }
 
     .section-header {
@@ -1318,7 +1331,7 @@ body {
     }
 
     .footer-grid {
-        margin: 0 30px;
+        margin: 0 0px 0 22px;
         position: relative;
         flex-wrap: nowrap;
         flex-direction: column;
@@ -1326,14 +1339,57 @@ body {
 
     .subGrid1 {
         width: 100%;
+        justify-content: flex-start;
     }
 
+    .fPages{
+        margin-right: 45px;
+    }
     .subGrid2 {
-        width: 80%;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .fResources{
+        margin-right: 29px;
     }
 
     .about-us-section {
         padding: 40px 20px;
+    }
+    .blog-section {
+        padding: 40px 0px;
+        background: #fff;
+        font-family: Arial, sans-serif;
+    }
+    .testimonialSlide {
+        flex-direction: column;
+    }
+    .video-container {
+        position: relative;
+        margin: 12px;
+        border-radius: 24px;
+        overflow: hidden;
+        height: calc(95vh - 24px);
+    }
+    .hero-section {
+        position: relative;
+        height: 95vh;
+        overflow: hidden;
+    }
+    .cta-button .arrow {
+        margin: 0;
+    }
+    .ourProcess-card {
+        width: 290px;
+    }
+
+    .why-choose-us .heading {
+        font-size: 24px !important;
+        font-weight: 500;
+        color: #070b0f;
+        line-height: 32px !important;
+        margin-bottom: 0 !important;
     }
 }
 
