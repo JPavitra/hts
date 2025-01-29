@@ -355,13 +355,12 @@ body {
 .about-us-section {
     position: relative;
     background-image: url('../img/Group\ 1000005424.png');
-    /* Replace with your background image path */
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
     color: #fff;
     text-align: left;
-    margin: 12px;
+    margin: 45px 12px 12px 12px;
     border-radius: 16px;
     height: 700px;
 }
@@ -458,12 +457,11 @@ body {
     align-items: center;
 }
 
-
 .our-process {
     height: 1000px;
     border-radius: 24px;
     background: #F5F7FA;
-    margin: -212px 12px 12px 12px;
+    margin: -120px 12px 12px 12px;
     text-align: center;
     padding: 60px 20px;
 }
@@ -1051,12 +1049,14 @@ body {
     background-color: white;
     border-radius: 2px;
 }
-.subGrid1{
+
+.subGrid1 {
     display: flex;
     justify-content: space-between;
     width: 35%;
 }
-.subGrid2{
+
+.subGrid2 {
     display: flex;
     justify-content: space-between;
     width: 30%;
@@ -1170,6 +1170,7 @@ body {
     .card-footer {
         padding: 0rem 1rem;
     }
+
     .arrow {
         margin-top: 10px;
     }
@@ -1210,6 +1211,7 @@ body {
 
     .our-process {
         height: auto;
+        margin: -190px 12px 12px 12px;
     }
 
     .ourProcess-container {
@@ -1342,29 +1344,33 @@ body {
         justify-content: flex-start;
     }
 
-    .fPages{
+    .fPages {
         margin-right: 45px;
     }
+
     .subGrid2 {
         width: 100%;
         justify-content: flex-start;
     }
 
-    .fResources{
+    .fResources {
         margin-right: 29px;
     }
 
     .about-us-section {
         padding: 40px 20px;
     }
+
     .blog-section {
         padding: 40px 0px;
         background: #fff;
         font-family: Arial, sans-serif;
     }
+
     .testimonialSlide {
         flex-direction: column;
     }
+
     .video-container {
         position: relative;
         margin: 12px;
@@ -1372,14 +1378,17 @@ body {
         overflow: hidden;
         height: calc(95vh - 24px);
     }
+
     .hero-section {
         position: relative;
         height: 95vh;
         overflow: hidden;
     }
+
     .cta-button .arrow {
         margin: 0;
     }
+
     .ourProcess-card {
         width: 290px;
     }
